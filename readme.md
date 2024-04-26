@@ -51,7 +51,7 @@ Welcome to Natours! This full-stack web application is designed for travel enthu
 
 ## Setting Up Your Local Environment
 
-# npm install
+** npm install
 
 # MongoDB Configuration
 DATABASE=your-mongodb-database-url
@@ -59,13 +59,13 @@ USERNAME=your-mongodb-username
 DATABASE_PASSWORD=your-mongodb-password
 
 # JSON Web Token Configuration
-SECRET=your-json-web-token-secret
-JWT_EXPIRES_IN=90d
-JWT_COOKIE_EXPIRES_IN=90
+*SECRET=your-json-web-token-secret
+*JWT_EXPIRES_IN=90d
+*JWT_COOKIE_EXPIRES_IN=90
 
 # Stripe Configuration
-STRIPE_SECRET_KEY=your-stripe-secret-key
-STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
+*STRIPE_SECRET_KEY=your-stripe-secret-key
+*STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
 
 
 This revised documentation provides a cleaner and more organized layout with headings, subheadings, code blocks, and bullet points for better readability and navigation. Feel free to adjust the content and formatting further to fit your preferences!
