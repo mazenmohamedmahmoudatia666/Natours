@@ -51,23 +51,35 @@ Welcome to Natours! This full-stack web application is designed for travel enthu
 
 ## Setting Up Your Local Environment
 
-** npm install
+To set up your local environment for the Natours app, follow these steps:
+
+1. **Install Dependencies:**
+
+   Run the following command to install all the required dependencies:
+   
+   ```bash
+   npm install
+
 
 # MongoDB Configuration
+Configure Environment Variables:Before running the Natours app, you need to configure your environment variables.
+Create a 
+.env file in the root directory of the app and add the following environment variables:
+```bash
 DATABASE=your-mongodb-database-url
 USERNAME=your-mongodb-username
 DATABASE_PASSWORD=your-mongodb-password
 
 # JSON Web Token Configuration
-*SECRET=your-json-web-token-secret
-*JWT_EXPIRES_IN=90d
-*JWT_COOKIE_EXPIRES_IN=90
+SECRET=your-json-web-token-secret
+JWT_EXPIRES_IN=90d
+JWT_COOKIE_EXPIRES_IN=90
 
 # Stripe Configuration
-*STRIPE_SECRET_KEY=your-stripe-secret-key
-*STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
+STRIPE_SECRET_KEY=your-stripe-secret-key
+STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
 
 
-This revised documentation provides a cleaner and more organized layout with headings, subheadings, code blocks, and bullet points for better readability and navigation. Feel free to adjust the content and formatting further to fit your preferences!
+
 
 
